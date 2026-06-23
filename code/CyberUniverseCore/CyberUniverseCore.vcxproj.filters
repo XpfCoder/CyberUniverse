@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="HotKey">
+      <UniqueIdentifier>{6cbba90e-862d-4dda-86e2-46708aeb24bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputEvent">
+      <UniqueIdentifier>{01904726-e040-42a5-84b9-b2a1e00bcfab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{704977c2-775e-4a45-a6ca-d8c6cc2667af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CyberUniverseApi">
+      <UniqueIdentifier>{2a2e9dac-009b-4121-935f-88b30866dbc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameListener">
+      <UniqueIdentifier>{5eb866d3-7889-4f2f-9d7a-89c5bd36dea0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CyberUniverseApi\FrameListenerManagerInterface.h">
+      <Filter>CyberUniverseApi</Filter>
+    </ClInclude>
+    <ClInclude Include="CyberUniverseApi\FrameworkInterface.h">
+      <Filter>CyberUniverseApi</Filter>
+    </ClInclude>
+    <ClInclude Include="CyberUniverseApi\HotKeyManagerInterface.h">
+      <Filter>CyberUniverseApi</Filter>
+    </ClInclude>
+    <ClInclude Include="CyberUniverseApi\InputEventManagerInterface.h">
+      <Filter>CyberUniverseApi</Filter>
+    </ClInclude>
+    <ClInclude Include="CyberUniverseApi\LogManagerInterface.h">
+      <Filter>CyberUniverseApi</Filter>
+    </ClInclude>
+    <ClInclude Include="CyberUniverseApi\PluginManagerInterface.h">
+      <Filter>CyberUniverseApi</Filter>
+    </ClInclude>
+    <ClInclude Include="CyberUniverseApi\StringFormat.h">
+      <Filter>CyberUniverseApi</Filter>
+    </ClInclude>
+    <ClInclude Include="CyberUniverseApi\StringTool.h">
+      <Filter>CyberUniverseApi</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameListener\FrameListenerManager.h">
+      <Filter>FrameListener</Filter>
+    </ClInclude>
+    <ClInclude Include="CyberUniverseApi\FrameListenerInterface.h">
+      <Filter>CyberUniverseApi</Filter>
+    </ClInclude>
+    <ClInclude Include="HotKey\HotKeyItemInfo.h">
+      <Filter>HotKey</Filter>
+    </ClInclude>
+    <ClInclude Include="HotKey\HotKeyManager.h">
+      <Filter>HotKey</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\DouglasPeucker.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\RootNodeProvider.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Utility.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FrameListener\FrameListenerManager.cpp">
+      <Filter>FrameListener</Filter>
+    </ClCompile>
+    <ClCompile Include="HotKey\HotKeyManager.cpp">
+      <Filter>HotKey</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\MathTool.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\RootNodeProvider.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\StringTool.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

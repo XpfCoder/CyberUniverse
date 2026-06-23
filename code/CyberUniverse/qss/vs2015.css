@@ -1,0 +1,160 @@
+
+QWidget {
+    background-color: rgb(45, 45, 48);
+    color: rgb(222, 222, 222);
+}
+
+    QWidget:disabled {
+        color: rgb(95, 95, 95);
+    }
+
+QMenuBar::item:selected {
+    background-color: rgb(62, 62, 64);
+}
+
+QMenu::item:selected {
+    background-color: rgb(62, 62, 64);
+}
+
+QToolBar {
+    border-color: rgb(45, 45, 48);
+}
+
+QToolButton:hover {
+    background-color: rgb(62, 62, 64);
+    border: none;
+}
+
+QLineEdit, QGroupBox {
+    border: 1px solid;
+    border-color: rgb(63, 63, 70);
+}
+
+QScrollBar:vertical {
+    background: #484848;
+    padding: 0px;
+    border-radius: 6px;
+    max-width: 12px;
+}
+
+QScrollBar::add-page:vertical {
+    background: none;
+}
+
+
+/*
+QScrollBar::sub-page:vertical {
+    background: none;
+}
+    QScrollBar::handle:vertical {
+    background: #525252;
+    min-height: 50px;
+    border-radius: 6px;
+}
+
+
+    QScrollBar::handle:vertical:hover {
+        background: #242424;
+    }
+
+    QScrollBar::handle:vertical:pressed {
+        background: #242424;
+    }
+
+
+QScrollBar::add-line:vertical {
+    background: none;
+}
+
+QScrollBar::sub-line:vertical {
+    background: none;
+}
+
+QScrollArea {
+    border: 0px;
+}*/
+
+/*QTreeView {
+    background-color: rgb(37, 37, 38);
+    color: rgb(222, 222, 222);
+    border: 1px solid;
+    border-color: rgb(63, 63, 70);
+}*/
+
+QHeaderView::section {
+    background-color: rgb(45, 45, 48);
+    /*color: white;
+    padding-left: 4px;
+    border: 1px solid #6c6c6c;*/
+    border : none;
+}
+
+QTreeView, QListView, QTableView, ShaderCodeEdit {
+    border: 1px solid;
+    border-color: rgb(63, 63, 70);
+    background-color: rgb(37, 37, 38);
+    color: rgb(222, 222, 222);
+    /*selection-background-color: #DAE0F1;
+    alternate-background-color: #525252;
+    gridline-color: #242424;*/
+}
+
+
+FieldTreeWidget::item {
+    border: 1px solid;
+    border-color: rgb(63, 63, 70);
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+FieldTreeWidget::branch {
+    border: 1px solid;
+    border-color: rgb(63, 63, 70);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+QTreeView::branch:open:has-children {
+    image: url(./Resources/tree_item_open.png);
+}
+
+QTreeView::branch:closed:has-children {
+    image: url(./Resources/tree_item_closed.png);
+}
+
+QTabBar::close-button {
+    image: url(./Resources/tree_item_closed.png);
+}
+
+QTabBar::close-button:selected {
+    image: url(./Resources/tree_item_open.png);
+}
+
+QTabWidget::pane {
+    border: none;
+}
+
+QTabBar::tab {
+    border: 1px solid #242424;
+    /*color:#DCDCDC;*/
+    margin: 0px;
+}
+
+
+
+    /*QToolBar::item {
+        background-color: rgb(62, 62, 64);
+        border-color: rgb(62, 62, 64);
+    }
+
+
+QToolButton:pressed {
+    background-color: rgb(62, 62, 64);
+    border-color: rgb(62, 62, 64);
+}
+
+QToolButton::menu-indicator {
+    background-color: rgb(62, 62, 64);
+    border-color: rgb(62, 62, 64);
+}*/

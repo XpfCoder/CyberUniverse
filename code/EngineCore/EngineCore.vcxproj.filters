@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{76ea8a32-25eb-4609-8717-ccfc365b39b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Serializer">
+      <UniqueIdentifier>{5a94462e-e23a-491c-9c07-b463c8fa623c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Event">
+      <UniqueIdentifier>{46810296-adbc-4667-99b6-f415c99c2206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Base">
+      <UniqueIdentifier>{410b4f62-93ab-4860-b52a-405019b3f628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine">
+      <UniqueIdentifier>{bb59fb84-472b-4be4-8545-3439695773c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset">
+      <UniqueIdentifier>{e0bac432-dc8c-47b9-9506-056f17a91f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{669f8dd9-f924-4b12-b94a-3846b6155a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Component">
+      <UniqueIdentifier>{15cedb6d-74b4-4021-bf05-ce156c9aa17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Component\Camera">
+      <UniqueIdentifier>{d6035d6d-b25e-4a35-aae9-54068602e247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Component\Common">
+      <UniqueIdentifier>{c1d88641-3201-46e9-8147-485f33ccc657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Component\Effect">
+      <UniqueIdentifier>{79732420-b9c9-4276-9064-d3bfa5c6cab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Shader">
+      <UniqueIdentifier>{04800529-ed6a-4f38-9c72-82a0168bfcd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Shader\BasicPrimitive">
+      <UniqueIdentifier>{4e2e125a-b76a-4f46-8b88-252e4e2a2d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Shader\FlatPixelFixedImage">
+      <UniqueIdentifier>{0088b760-ccfb-48e3-a47c-738414d2da4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Shader\ModelComponent">
+      <UniqueIdentifier>{92cc2d50-d474-4067-8bc0-1ff0904b0746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Shader\ParticleComponent">
+      <UniqueIdentifier>{ca40f5ee-d774-4ef9-913b-6989f8619bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Shader\ScreenPixelFixedImage">
+      <UniqueIdentifier>{797d9323-ac2b-4417-b94a-8c5592ee91f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Shader\ShadowMap">
+      <UniqueIdentifier>{29b1096d-e41d-4a16-86b5-3b1d9169b58e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Shader\SkyBoxComponent">
+      <UniqueIdentifier>{c6be3950-baaf-4e60-b02a-1cce13091318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Shader\Billboard">
+      <UniqueIdentifier>{22061ccc-2fb1-49dd-94e2-c0139a4ac9eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\Engine\NodeNotifyHandler.cpp">
+      <Filter>Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Engine\NotifyHandler.cpp">
+      <Filter>Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Engine\Scene.cpp">
+      <Filter>Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Engine\Node.cpp">
+      <Filter>Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Engine\Engine.cpp">
+      <Filter>Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Event\CameraChangedManager.cpp">
+      <Filter>Core\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Event\FrameMoveEventManager.cpp">
+      <Filter>Core\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Event\InputEventManager.cpp">
+      <Filter>Core\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset\DDSTextureLoader.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset\WICTextureLoader.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Base\d3dUtil.cpp">
+      <Filter>Core\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset\ScreenGrab.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EngineCore.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Component\Camera\Cameracontroller.cpp">
+      <Filter>Scene\Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Component\Camera\CameraManager.cpp">
+      <Filter>Scene\Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Component\Common\Transform.cpp">
+      <Filter>Scene\Component\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset\AssetManager.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Base\Utility.cpp">
+      <Filter>Core\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Component\Common\RenderStates.cpp">
+      <Filter>Scene\Component\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Component\Common\VertexType.cpp">
+      <Filter>Scene\Component\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Engine\Component.cpp">
+      <Filter>Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Component\Effect\BoxComponent.cpp">
+      <Filter>Scene\Component\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Base\GameTimer.cpp">
+      <Filter>Core\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Component\Effect\SkyComponent.cpp">
+      <Filter>Scene\Component\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Component\Effect\GroundComponent.cpp">
+      <Filter>Scene\Component\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Component\Effect\BillboardConponent.cpp">
+      <Filter>Scene\Component\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Component\Effect\ModelComponent.cpp">
+      <Filter>Scene\Component\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset\Model.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset\ObjReader.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Engine\Node.h">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\NodeNotifyHandler.h">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\NotifyHandler.h">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Scene.h">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Engine.h">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Base\SingletonInterface.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Event\CameraChangedManager.h">
+      <Filter>Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Event\FrameMoveEventManager.h">
+      <Filter>Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Event\InputEventManager.h">
+      <Filter>Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Base\ManagerInterface.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset\DDSTextureLoader.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset\WICTextureLoader.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Base\d3dUtil.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset\ScreenGrab.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EngineCore.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Component\Camera\Cameracontroller.h">
+      <Filter>Scene\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Component\Camera\CameraManager.h">
+      <Filter>Scene\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Component\Common\Transform.h">
+      <Filter>Scene\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset\AssetManager.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Base\Utility.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Component\Common\RenderStates.h">
+      <Filter>Scene\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Component\Common\VertexType.h">
+      <Filter>Scene\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Component.h">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Serializer\Reference.h">
+      <Filter>Core\Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Component\Effect\BoxComponent.h">
+      <Filter>Scene\Component\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Base\GameTimer.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Component\Effect\SkyComponent.h">
+      <Filter>Scene\Component\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Component\Common\Geometry.h">
+      <Filter>Scene\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Component\Effect\GroundComponent.h">
+      <Filter>Scene\Component\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Component\Effect\BillboardConponent.h">
+      <Filter>Scene\Component\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Component\Effect\ModelComponent.h">
+      <Filter>Scene\Component\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Component\Common\LightHelper.h">
+      <Filter>Scene\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset\Model.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset\ObjReader.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scene\Shader\CommonShader.hlsli">
+      <Filter>Scene\Shader</Filter>
+    </None>
+    <None Include="Scene\Shader\BasicPrimitive\BasicPrimitive.hlsli">
+      <Filter>Scene\Shader\BasicPrimitive</Filter>
+    </None>
+    <None Include="Scene\Shader\SkyBoxComponent\SkyBoxCommonShader.hlsli">
+      <Filter>Scene\Shader\SkyBoxComponent</Filter>
+    </None>
+    <None Include="Scene\Shader\Billboard\BasicBillboard.hlsli">
+      <Filter>Scene\Shader\Billboard</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Scene\Shader\BasicPrimitive\BasicPrimitivePS.hlsl">
+      <Filter>Scene\Shader\BasicPrimitive</Filter>
+    </FxCompile>
+    <FxCompile Include="Scene\Shader\BasicPrimitive\BasicPrimitiveVS.hlsl">
+      <Filter>Scene\Shader\BasicPrimitive</Filter>
+    </FxCompile>
+    <FxCompile Include="Scene\Shader\SkyBoxComponent\SkyBoxComponentPS.hlsl">
+      <Filter>Scene\Shader\SkyBoxComponent</Filter>
+    </FxCompile>
+    <FxCompile Include="Scene\Shader\SkyBoxComponent\SkyBoxComponentVS.hlsl">
+      <Filter>Scene\Shader\SkyBoxComponent</Filter>
+    </FxCompile>
+    <FxCompile Include="Scene\Shader\Billboard\Billboard_GS.hlsl">
+      <Filter>Scene\Shader\Billboard</Filter>
+    </FxCompile>
+    <FxCompile Include="Scene\Shader\Billboard\Billboard_PS.hlsl">
+      <Filter>Scene\Shader\Billboard</Filter>
+    </FxCompile>
+    <FxCompile Include="Scene\Shader\Billboard\Billboard_VS.hlsl">
+      <Filter>Scene\Shader\Billboard</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/CorePlugin">
+        <file>Resources/1.jpg</file>
+        <file>Resources/2.png</file>
+        <file>Resources/11.png</file>
+        <file>Resources/12.png</file>
+        <file>Resources/14.png</file>
+        <file>Resources/logo.png</file>
+        <file>Resources/location.png</file>
+    </qresource>
+</RCC>
